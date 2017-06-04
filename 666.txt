@@ -1,1 +1,6 @@
-hello gitHub
+$ ssh-keygen -t rsa -C "784335750@qq.com"
+git config --global user.name "liuliang-pc"
+git config --global user.email "liul-asus@qq.com"hello gitHub
+
+
+http://blog.csdn.net/laozitianxia/article/details/50682100
