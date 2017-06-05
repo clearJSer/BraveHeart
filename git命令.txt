@@ -1,0 +1,37 @@
+
+分支开发 主线发布 即使是管理员 也不要用主线开发 自己拉个分支  
+ 每天 切换到master分支 ，然后切换到自己分支  merge master  然后add  commmit
+
+
+$ git config --global user.name "xuhaiyan"
+$ git config --global user.email "haiyan.xu.vip@gmail.com"
+
+
+生成秘钥  $ ssh-keygen -t rsa -C “784335750@qq.com”
+
+.测试：   ssh git@github.com
+
+查看状态  git status   
+
+修改别名   git config --global alias.st status    
+
+add+commit  git commit -am 'xxxxx'
+
+查看当前分支  git branch   *指示当前分支（简写br） 
+
+创建分支 git branch 20170605-test-liul-bug
+
+切换分支 git checkout liul-rd   git co master
+
+创建分支并切换 git checkout -b xxx
+
+远端创建分支 git push --set-upstream origin 20170605-money-liul-rd  
+
+分支合并 git merge liul-rd  只有管理员有权限，只提交到本地仓库    还没有push到远端  
+
+删除分支：
+master 提交权限设置  
+
+查看修改  git diff  
+
+远端后来新加的分支 本地仓库没有的分支  用 git fetch  --all 》》本地仓库有了 在执行git checkout 
