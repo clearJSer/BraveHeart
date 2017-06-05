@@ -29,9 +29,11 @@ add+commit  git commit -am 'xxxxx'
 
 分支合并 git merge liul-rd  只有管理员有权限，只提交到本地仓库    还没有push到远端  
 
-删除分支：
-master 提交权限设置  
+删除本地分支：  git branch -D br
+
+删除远程分支：
+master 提交权限设置  
 
 查看修改  git diff  
 
-远端后来新加的分支 本地仓库没有的分支  用 git fetch  --all 》》本地仓库有了 在执行git checkout 
+远端后来新加的分支 本地仓库没有的分支  用 git fetch  --all 》》本地仓库有了 在执行$ git checkout -b 新名字 origin/旧名字
