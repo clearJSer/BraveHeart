@@ -1,4 +1,4 @@
-
+﻿
 分支开发 主线发布 即使是管理员 也不要用主线开发 自己拉个分支  
  每天 切换到master分支 ，然后切换到自己分支  merge master  然后add  commmit
 
@@ -35,3 +35,8 @@ master 提交权限设置
 查看修改  git diff  
 
 远端后来新加的分支 本地仓库没有的分支  用 git fetch  --all 》》本地仓库有了 在执行git checkout 
+
+查看日志 git log
+
+回滚到指定的版本 git reset --hard id  
+
