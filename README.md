@@ -18,7 +18,6 @@ Enter file in which to save the key (C:\Users\Administrator/.ssh/id_rsa): C:\Use
 
 #### 配置多环境配置文件
 文件地址：  C:\Users\Administrator\.ssh
-···
 Host github
 HostName github.com
 IdentityFile ~/.ssh/id_rsa.github
@@ -27,8 +26,7 @@ User clearJSer
 Host gitlab
 HostName  gitlab.com
      IdentityFile ~/.ssh/id_rsa_gitlab
-···
 Host对应的名称是一个别名，命名可以随意，用来进行远程连接，当然使用真实的主机名称也是可以的。
 HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
 
-### Mac环境下
+### 2 Mac环境下
