@@ -1,4 +1,5 @@
-# 背景
+# git配置SSH key操作指南
+## 背景
 去了新的公司或者换了新的电脑 开始工作之前第一步就是配置git SSH环境 
 
 这里整理了mac 和 windows环境下 配置github gitlab 和其他环境的SSH协议 
@@ -35,4 +36,9 @@ HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
 
 ### 2 Mac环境下
 .ssh 路径：  ~/.ssh
+
+
+### 连接测试
+
+ssh -T github.com
 
