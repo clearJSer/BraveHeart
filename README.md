@@ -40,5 +40,5 @@ HostName和IdentityFile就是各自主机名称以及对应的秘钥文件了~
 
 ### 连接测试
 
-ssh -T github.com
+ssh -T git@github.com
 
